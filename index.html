@@ -335,17 +335,6 @@
             margin-top: 40px;
         }
 
-        
-/*Mobile View
-@media (max-width: 767px) {
-    .hamburger {
-        display: block;
-    }
-
-    .cart, .login {
-        display: inline-block;
-    }
-}*/
         a:focus,
         button:focus,
         input:focus,
@@ -361,12 +350,13 @@
             width: 60%;
             .cart, .login {
         display: inline-block;
+            }
         }
         
     }
     @media (max-width: 780px) {
         .nav-links {
-            display: flex;
+            display: inline-block;
         }
         .search-box {
             width: 40%;
@@ -375,9 +365,9 @@
         }
     }
     }
-        @media (max-width: 480px) {
+        @media (max-width: 400px) {
         .nav-links {
-            display: flex;
+            display: inline-block;
             .cart, .login {
         display: inline-block;
         }
